@@ -1,0 +1,8 @@
+@import "../../styles/variables.scss";
+.comment-group {
+  &.tree {
+    padding-left: 4px;
+    margin-left: 37px;
+    border-left: 1px solid $light-grey;
+  }
+}
