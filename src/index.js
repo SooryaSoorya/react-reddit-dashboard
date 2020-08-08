@@ -1,12 +1,15 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import './index.css';
+import './index.scss';
 import App from './App';
 import * as serviceWorker from './serviceWorker';
+import PostProvider from './services/PostProvider'
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <PostProvider>
+      <App />
+    </PostProvider>
   </React.StrictMode>,
   document.getElementById('root')
 );

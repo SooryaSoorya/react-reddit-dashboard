@@ -1,0 +1,41 @@
+@import "../../styles/variables.scss";
+.post-container {
+  background-color: white;
+  padding: 1.5rem;
+  border-radius: 12px;
+
+  .post-content {
+    border-radius: 12px;
+    background-color: $primary-text-color;
+    padding: 1rem 2.5rem;
+    color: rgba(0, 0, 0, 0.6);
+    font-size: 14px;
+    letter-spacing: 0.25px;
+    line-height: 20px;
+    .post-text {
+      span {
+        display: inline-block;
+        padding-top: 4px;
+        margin-block-end: 9px;
+        margin-block-start: 9px;
+      }
+    }
+
+    .comment-info {
+      margin-top: 8px;
+      .comment-img {
+        height: 13px;
+        width: 13px;
+      }
+      .comment-count {
+        padding-top: 1rem;
+        color: $secondary-text-color;
+        font-family: $font-family;
+        font-size: 12px;
+        letter-spacing: -0.5px;
+        line-height: 15px;
+        padding: 0px 0.75em 0px 10px;
+      }
+    }
+  }
+}

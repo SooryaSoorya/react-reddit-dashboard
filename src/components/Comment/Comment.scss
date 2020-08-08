@@ -1,0 +1,55 @@
+@import "../../styles/variables.scss";
+.comment-content {
+  padding-left: 38px;
+  padding-top: 10px;
+
+  .author-details {
+    color: rgba(0, 0, 0, 0.87);
+    font-size: 12px;
+    letter-spacing: 0.4px;
+
+    .author {
+      color: $primary-blue-color;
+      font-size: 0.75rem;
+      padding-right: 1rem;
+      text-decoration: unset;
+      &.removed {
+        color: $secondary-text-color;
+      }
+      &:hover {
+        text-decoration: underline;
+      }
+    }
+    .upvotes,
+    .time-ago {
+      color: rgba(0, 0, 0, 0.87);
+      font-size: 0.75rem;
+    }
+    .delete {
+      margin-right: 15px;
+      float: right;
+
+      &:hover {
+        cursor: pointer;
+      }
+    }
+  }
+
+  .comment-content-details {
+    color: rgba(0, 0, 0, 0.6);
+    font-size: 14px;
+    padding-right: 3rem;
+    color: rgba(0, 0, 0, 0.6);
+    font-family: $font-family;
+    font-size: 14px;
+    letter-spacing: 0.25px;
+    line-height: 20px;
+
+    span {
+      display: inline-block;
+      padding-top: 4px;
+      margin-block-end: 9px;
+      margin-block-start: 9px;
+    }
+  }
+}
