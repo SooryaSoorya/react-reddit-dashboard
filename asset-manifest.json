@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/react-reddit-dashboard/static/css/main.d804ae65.chunk.css",
+    "main.js": "/react-reddit-dashboard/static/js/main.f48a0911.chunk.js",
+    "main.js.map": "/react-reddit-dashboard/static/js/main.f48a0911.chunk.js.map",
+    "runtime-main.js": "/react-reddit-dashboard/static/js/runtime-main.82990808.js",
+    "runtime-main.js.map": "/react-reddit-dashboard/static/js/runtime-main.82990808.js.map",
+    "static/js/2.99ed3ecf.chunk.js": "/react-reddit-dashboard/static/js/2.99ed3ecf.chunk.js",
+    "static/js/2.99ed3ecf.chunk.js.map": "/react-reddit-dashboard/static/js/2.99ed3ecf.chunk.js.map",
+    "index.html": "/react-reddit-dashboard/index.html",
+    "precache-manifest.320be98091d4ce57fad4b98ec25ed688.js": "/react-reddit-dashboard/precache-manifest.320be98091d4ce57fad4b98ec25ed688.js",
+    "service-worker.js": "/react-reddit-dashboard/service-worker.js",
+    "static/css/main.d804ae65.chunk.css.map": "/react-reddit-dashboard/static/css/main.d804ae65.chunk.css.map",
+    "static/js/2.99ed3ecf.chunk.js.LICENSE.txt": "/react-reddit-dashboard/static/js/2.99ed3ecf.chunk.js.LICENSE.txt",
+    "static/media/comment.svg": "/react-reddit-dashboard/static/media/comment.fdd056a7.svg",
+    "static/media/delete.svg": "/react-reddit-dashboard/static/media/delete.82862f89.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.82990808.js",
+    "static/js/2.99ed3ecf.chunk.js",
+    "static/css/main.d804ae65.chunk.css",
+    "static/js/main.f48a0911.chunk.js"
+  ]
+}
