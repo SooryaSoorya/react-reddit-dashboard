@@ -47,6 +47,12 @@ Your app is ready to be deployed!!
 - There's service , utils, styles, assets and mock data in different folders
 - Have used [gh-pages](https://github.com/tschaub/gh-pages) to deploy the app
 
+## Improvisation Ideas
+
+ - Currently, when the data is being retrieved from the backend nothing is showing in the UI, we can add a loader image
+ - For actions like deleting comment can display a notification when the it is done
+ - Comments Tree Hierarchy, open and close actions for them can be implemented
+ 
 ## References
 
 You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).<br/>
