@@ -2,7 +2,7 @@
   "name": "react-reddit-dashboard",
   "version": "0.1.0",
   "private": true,
-  "home": "https://SooryaSoorya.github.io/react-reddit-dashboard",
+  "homepage": "https://SooryaSoorya.github.io/react-reddit-dashboard",
   "dependencies": {
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.3.2",
